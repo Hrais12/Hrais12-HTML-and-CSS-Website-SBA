@@ -1,3 +1,66 @@
+
+
+
+/* -----------animations */
+
+.find:hover, .icon:hover,.card:hover, #find:hover{
+   
+  animation: pulse 0.5s forwards;
+  cursor: pointer;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+
+#find{
+  animation: wiggle 2s linear infinite;
+}
+
+/* Keyframes */
+@keyframes wiggle {
+  0%, 7% {
+    transform: rotateZ(0);
+  }
+  15% {
+    transform: rotateZ(-15deg);
+  }
+  20% {
+    transform: rotateZ(10deg);
+  }
+  25% {
+    transform: rotateZ(-10deg);
+  }
+  30% {
+    transform: rotateZ(6deg);
+  }
+  35% {
+    transform: rotateZ(-4deg);
+  }
+  40%, 100% {
+    transform: rotateZ(0);
+  }
+}
+
+
+
+
+
+
+
+
+
+body{
+  font-family: 'Poppins';font-size: 15px;
+}
+
+
 /* Style the dropdown button */
 .dropbtn {
     /* background-color: #4CAF50; */
@@ -266,7 +329,7 @@
     border: solid lightgrey;
     border-radius: 40px;
     padding: 30px;
-    height: 400px;
+    height: 450px;
     margin-top: 100px;
    
   }
@@ -337,7 +400,7 @@ table{
   /* --------------------contact page style */
 
   #contactForm{
-    height: 40em;
+    height: 45em;
     
   }
   #GetIntouch{
@@ -385,4 +448,10 @@ aside a{
 aside a:hover{
   color: peru;
 }
+
+
+/* Animation property */
+
+
+
 
