@@ -225,12 +225,13 @@ aside{
   display: none;
 }
 form{
-  width: 25em;
+  width: 70vw;
   border: solid lightgrey;
   border-radius: 40px;
   padding: 30px;
   height: 70%;
-  margin-top: 100px;
+  margin-top: -6vh;
+  margin-left:-7vw;
  
 }
 .classMidContainer{
@@ -362,22 +363,23 @@ aside{
   display: none;
 }
 form{
-  width: 20em;
+  width: 70vw;
   border: solid lightgrey;
   border-radius: 40px;
   padding: 30px;
   height: 70%;
-  margin-top: 100px;
+  margin-top: -6vh;
+  margin-left:-12vw;
  
 }
 .classMidContainer{
   display: block;
   position: relative;
   top: 200px;
-  width: 70%;
+  width: 70vw;
   text-align: center;
   padding: 30px;
-  margin-left: 70px;
+  margin-left: 12vw;
   
 }
 .getStarted{
