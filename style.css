@@ -1,5 +1,307 @@
+/* -----------responsive */
+@media screen and (max-width: 1700px) {
+  
+  .topImg{
+    width: 30em;
+    display: block;
+ }
+ #MENUE{
+  display: none;
+ }
+ .optionContainer{
+  display: flex;
+  border:  solid black;
+  border-radius: 50px;
+  
+}
+.Languages{
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.pairLanguages{
+  display: flex;
+  justify-content: space-evenly;
+  width: 50%;
+}
+.reviewContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 100%;
+  
+}
+.reviewTitle{
+  background-color: rgba(255, 228, 196, 0.407);
+  border-radius: 40px;
+  height: 40%;
+  padding: 30px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 50px;
+  width: 40%;
+  margin-bottom: 150px;
+  
+}
+.reviewSlide{
+  width: 40%;
+  
+  align-items: center;
+  padding-right: 0;
+  
+}
+.bottomContainer{
+  display: flex;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(255, 228, 196, 0.407);
+  padding: 50px;
+  
+}
+.subscribeContainer{
+  margin: 100px;
+  text-align: center;
+  display: block;
+  
+}
+
+/* -------------------------media for classes page */
+
+.ClassInfo{
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+  margin-left: 150px;
+  margin-right: 200px;
+}
+.txtInfoContainer{
+  display: block;
+}
+form{
+  width: 50em;
+  border: solid lightgrey;
+  border-radius: 40px;
+  padding: 30px;
+  height: 70%;
+  margin-top: 100px;
+  margin-right: 100px;
+ 
+}
+
+/* ------------contact us media */
+
+.conntactContainer{
+  display: block;
+  margin: 100px;
+ 
+}
 
 
+
+
+}
+
+@media screen and (max-width: 900px) {
+  
+  .topImg{
+    width: 30em;
+    display: none;
+ }
+ #MENUE{
+  display: block;
+ }
+ .optionContainer{
+  display: none;
+  border:  solid black;
+  border-radius: 50px;
+  
+}
+.Languages{
+  display: block;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.pairLanguages{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 20px;
+}
+.reviewContainer{
+  display: block;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  width: 100%;
+  
+}
+.reviewTitle{
+  background-color: rgba(255, 228, 196, 0.407);
+  border-radius: 40px;
+  height: 40%;
+  padding: 30px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 100px;
+  width: 70%;
+  margin-bottom: 150px;
+  /* margin-left: 100px; */
+}
+.reviewSlide{
+  width: 80%;
+  margin-left: 70px;
+  
+}
+.bottomContainer{
+  display: none;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(255, 228, 196, 0.407);
+  padding: 50px;
+  
+}
+.subscribeContainer{
+  margin: 100px;
+  text-align: center;
+  display: none;
+  
+}
+/* -------------------------media for classes page */
+
+.ClassInfo{
+  display: block;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.txtInfoContainer{
+  display: none;
+}
+form{
+  width: 25em;
+  border: solid lightgrey;
+  border-radius: 40px;
+  padding: 30px;
+  height: 70%;
+  margin-top: 100px;
+ 
+}
+/* ---------contact us media */
+
+.conntactContainer{
+  display: block;
+  justify-content: space-evenly;
+  
+}
+
+}
+
+@media screen and (max-width: 550px) {
+  
+  .topImg{
+    width: 30em;
+    display: none;
+ }
+ #MENUE{
+  display: block;
+ }
+ .optionContainer{
+  display: none;
+  border:  solid black;
+  border-radius: 50px;
+  
+}
+.Languages{
+  display: block;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  width: 100%;
+}
+.pairLanguages{
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  padding-top: 20px;
+}
+.reviewContainer{
+  display: block;
+  justify-content: space-around;
+  margin-bottom: 100px;
+  width: 100%;
+  align-content: center;
+}
+.reviewTitle{
+  background-color: rgba(255, 228, 196, 0.407);
+  border-radius: 40px;
+  height: 40%;
+  padding: 30px;
+  position: relative;
+  top: 100px;
+  text-align: center;
+  margin-left: 50px;
+  width: 80%;
+  margin-bottom: 150px;
+  /* margin-left: 100px; */
+}
+.reviewSlide{
+  width: 80%;
+  margin-left: 50px;
+  
+}
+.bottomContainer{
+  display: none;
+  justify-content: space-around;
+  margin-left: 100px;
+  margin-right: 100px;
+  background-color: rgba(255, 228, 196, 0.407);
+  padding: 50px;
+  
+}
+.subscribeContainer{
+  margin: 100px;
+  text-align: center;
+  display: none;
+}
+
+/* -------------------------media for classes page */
+
+.ClassInfo{
+  display: block;
+  justify-content: space-evenly;
+  position: relative;
+  top: 150px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+.txtInfoContainer{
+  display: none;
+}
+form{
+  width: 25em;
+  border: solid lightgrey;
+  border-radius: 40px;
+  padding: 30px;
+  height: 70%;
+  margin-top: 100px;
+ 
+}
+/* -----------------contact us ------- */
+.conntactContainer{
+  display: block;
+  justify-content: space-evenly;
+  
+}
+
+}
 
 /* -----------animations */
 
@@ -57,7 +359,11 @@
 
 
 body{
-  font-family: 'Poppins';font-size: 15px;
+
+  font-family: 'Poppins';
+  font-size: 15px;
+  margin: 0;
+  
 }
 
 
@@ -112,29 +418,18 @@ body{
     display: block;
   }
   
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  /* .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
-  } */
 
   .navContainer{
 
     display: flex;
     justify-content : space-around;
     align-items: center;
-    /* margin-left: 50px; */
     z-index: 1;
     background-color: rgba(255, 228, 196, 0.407);
-   
-    
+  
   }
 
-  .optionContainer{
-    display: flex;
-    border:  solid black;
-    border-radius: 50px;
-    
-  }
+  
 
   .logo{
     width: 8%;
@@ -159,14 +454,12 @@ body{
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 100px;
+    top: 10%;
   }
-  .topImg{
-     width: 30em;
-  }
+  
   .welcomeTxt{
     text-align: center;
-    height: 250px;
+    height: 20%;
     padding: 30px;
     position: relative;
     top: 100px;
@@ -196,45 +489,11 @@ body{
     color:#334533;
     cursor: pointer;
   }
-  .Languages{
-    display: flex;
-    justify-content: space-evenly;
-    margin-bottom: 30px;
-  }
+  
   #FR{
     height: 200px;
   }
-  .reviewSlide{
-    width: 40%;
-    
-  }
-  .reviewContainer{
-    display: flex;
-    justify-content: space-around;
-    margin: 100px;
-    
-  }
-  .reviewTitle{
-    background-color: rgba(255, 228, 196, 0.407);
-    border-radius: 40px;
-    height: 200px;
-    padding: 30px;
-    position: relative;
-    top: 120px;
-    text-align: center;
-    /* margin: 50px; */
-    width: 40%;
-  }
-
-  .bottomContainer{
-    display: flex;
-    justify-content: space-around;
-    margin-left: 100px;
-    margin-right: 100px;
-    background-color: rgba(255, 228, 196, 0.407);
-    padding: 50px;
-    
-  }
+  
   .btmPic{
     width: 40em;
     border-radius: 50%;
@@ -255,11 +514,7 @@ body{
 
   }
 
-  .subscribeContainer{
-    margin: 100px;
-    text-align: center;
-    
-  }
+  
   .inputcontainer{
     display: flex;
     margin-top: 30px;
@@ -274,7 +529,7 @@ body{
   }
   #subscribe{
     position: relative;
-    left:65em;
+    left:64em;
     top: 5px;
 
   }
@@ -283,14 +538,15 @@ body{
     align-items: center;
     background-color: rgba(255, 228, 196, 0.407) ;
    color: lightslategray;
+   width: 100%;
   }
   footer ul{
     display: flex;
     justify-content: space-evenly;
-    gap: 2rem;
+    /* gap: 2rem; */
     
-    width: 500px;
-    margin-left: 600px;
+    /* width: 500px; */
+    /* margin-left: 600px; */
   }
   footer li{
     list-style: none;
@@ -315,24 +571,9 @@ body{
     top: 50px;
     text-align: center;
   }
-  .ClassInfo{
-    display: flex;
-    justify-content: space-evenly;
-    position: relative;
-    top: 150px;
-    margin-left: 200px;
-    margin-right: 200px;
-  }
+  
 
-  form{
-    width: 50%;
-    border: solid lightgrey;
-    border-radius: 40px;
-    padding: 30px;
-    height: 450px;
-    margin-top: 100px;
-   
-  }
+  
   form span{
     color: orange;
   }
@@ -340,17 +581,15 @@ body{
     margin-top: 20px;
     
   }  
-  .txtInfoContainer{
-    display: block;
-  }
+  
     
   .txtInfo{
     background-color: rgba(255, 228, 196, 0.407);
     border-radius: 40px;
-    height: 230px;
+    height: 45%;
     padding: 30px;
     text-align: left;
-    margin: 50px;
+    margin-top: 50px;
     width: 70%;
   }
   /* -----------------------classe mid container */
@@ -361,7 +600,7 @@ body{
   width: 70%;
   text-align: center;
   padding: 30px;
-  margin-left: 250px;
+  margin-left: 150px;
   
 }
 .classMidTitle{
@@ -383,7 +622,7 @@ table{
     top: 250px;
     text-align: center;
     width: 65%;
-    margin-left:280px ;
+    margin-left:150px ;
     background-color: rgba(255, 228, 196, 0.407);
     border-radius: 40px ;
     padding: 30px;
@@ -450,7 +689,6 @@ aside a:hover{
 }
 
 
-/* Animation property */
 
 
 
