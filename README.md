@@ -17,23 +17,8 @@ Three Pages:
 •	CONTACT US
 
 More than Ten different HTML tags:
-1.	<a>
-2.	<area>
-3.	<aside>
-4.	<body>
-5.	<br />
-6.	<button>
-7.	<div>
-8.	<footer>
-9.	<h1> to <h6>
-10.	<hr />
-11.	<img>
-12.	<input>
-13.	<li>
-14.	<nav>
-15.	<span>
-16.	<ul>
-17.	<p>
+<a>, <area>,<aside>,<body>,<br/>,<button>,<div>,<footer>,<h1>,<hr>
+<img>,<input>,<li>,<nav>,<span>,<ul>,<p>.....
 
 Two table:
  include two pricing tables for online and in person lessons.
