@@ -83,22 +83,21 @@
   display: block;
 }
 form{
-  width: 50em;
+  width: 40em;
   border: solid lightgrey;
   border-radius: 40px;
   padding: 30px;
   height: 70%;
   margin-top: 100px;
-  margin-right: 100px;
+  
  
 }
 
 /* ------------contact us media */
 
 .conntactContainer{
-  display: block;
-  margin: 100px;
- 
+  display: flex;
+  justify-content: space-evenly;
 }
 
 
@@ -151,7 +150,7 @@ form{
   margin-left: 100px;
   width: 70%;
   margin-bottom: 150px;
-  /* margin-left: 100px; */
+  
 }
 .reviewSlide{
   width: 80%;
@@ -200,6 +199,8 @@ form{
 .conntactContainer{
   display: block;
   justify-content: space-evenly;
+  margin-left: 70px;
+  margin-right: 50px;
   
 }
 
@@ -250,7 +251,7 @@ form{
   margin-left: 50px;
   width: 80%;
   margin-bottom: 150px;
-  /* margin-left: 100px; */
+  
 }
 .reviewSlide{
   width: 80%;
@@ -298,6 +299,7 @@ form{
 .conntactContainer{
   display: block;
   justify-content: space-evenly;
+  margin-left: 70px;
   
 }
 
@@ -352,7 +354,9 @@ form{
 
 
 
-
+/* *{
+  border: solid black;
+} */
 
 
 
@@ -369,7 +373,7 @@ body{
 
 /* Style the dropdown button */
 .dropbtn {
-    /* background-color: #4CAF50; */
+    
     color: black;
     padding: 16px;
     font-size: 16px;
@@ -477,8 +481,6 @@ body{
     padding: 20px;
     margin-top: 150px;
     margin-bottom: 60px;
-    /* margin-left: 120px;
-    margin-right: 120px; */
     text-align: center;
   }
   a{
@@ -543,14 +545,9 @@ body{
   footer ul{
     display: flex;
     justify-content: space-evenly;
-    /* gap: 2rem; */
-    
-    /* width: 500px; */
-    /* margin-left: 600px; */
   }
   footer li{
     list-style: none;
-  
   }
 
   /* ---Classes page styling page---- */
@@ -646,12 +643,7 @@ table{
     text-align: center;
   }
 
-.conntactContainer{
-  display: flex;
-  justify-content: space-evenly;
 
-  
-}
 aside{
   border: solid lightgray;
   margin-top: 100px;
