@@ -307,7 +307,7 @@ form{
 
 /* -----------animations */
 
-.find:hover, .icon:hover,.card:hover, #find:hover{
+.find:hover, .icon:hover,.card:hover, #find:hover, .logo{
    
   animation: pulse 0.5s forwards;
   cursor: pointer;
@@ -433,10 +433,16 @@ body{
   
   }
 
-  
-
   .logo{
     width: 8%;
+  }
+
+  .logofixed{
+    width: 10%;
+    position: fixed;
+    top: 0;
+    left: 10PX;
+    z-index: 1;
     
   }
   .find{
