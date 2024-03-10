@@ -417,6 +417,33 @@ aside{
 
 /* -----------animations */
 
+.ad{
+  animation: ad-slideLeft 25s linear infinite;
+}
+
+@keyframes ad-slideLeft{
+  0% {
+      transform: translateX(-75vw);
+  }
+  25% {
+      transform: translateX(-15vw);
+  }
+  55% {
+      transform: translateX(15vw);
+  }
+  75% {
+      transform: translateX(60vw);
+  }
+  100% {
+      transform: translateX(90vw);
+  }
+  }
+
+
+
+
+
+
 .find:hover, .icon:hover,.card:hover, #find:hover, .logo{
    
   animation: pulse 0.5s forwards;
