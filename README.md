@@ -63,7 +63,7 @@ one for buttons
 one for the languages cards.
 
 
- used CSS Media Queries to meke the website responsive.
+ used CSS Media Queries to make the website responsive.
 
 
 
